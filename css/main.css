@@ -1,0 +1,19 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#info {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    text-align: left;
+    z-index: 100;
+    display:block;
+}
+
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
